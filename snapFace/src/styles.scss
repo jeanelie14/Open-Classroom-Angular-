@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+* {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.snapped {
+  background-color: rgba(lightgreen, 0.4);
+  color: darkgreen;
+  button {
+    box-shadow: lightgreen 3px 3px 7px;
+    color: darkgreen;
+    &:active {
+      box-shadow: lightgreen 0 0 5px;
+    }
+  }
+}
+.auteur {
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 8%;
+  font-weight: bold;
+
+  text-transform: camalcase;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.dateDeCreation {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 5%;
+  font-weight: normal;
+  text-transform: camalcase;
+}
+.faceSnapDescription {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 5%;
+  font-weight: normal;
+  text-transform: camalcase;
+}
+.navbar-brand {
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+}
+.faceSnapLocation {
+  font-style: italic;
+  font-size: small;
+  color: black;
+}
+
+// ajustement de la bar de navigation , la fixer et empecher d'autre element de le passer par dessus
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.container-fluid {
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  // margin-left: 0%;
+}
+.nav-link {
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+.collapse {
+  margin-left: 35%;
+}
+
+///masquer la barre  vertical de la page HTML sans geler la page
+body {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
