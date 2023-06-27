@@ -79,7 +79,7 @@
   color: black;
 }
 .collapse {
-  margin-left: 35%;
+  margin-left: 30%;
 }
 
 ///masquer la barre  vertical de la page HTML sans geler la page
@@ -92,4 +92,39 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background-color: transparent;
+}
+
+.HomItem {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.FaceItem {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.SnapItem {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.landing-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-links {
+  width: 100%;
+  text-align: center;
+}
+.textButtonLandingPage {
+  font-size-adjust: none;
+  color: white;
+}
+.cardInfo {
+  padding-top: 0%;
+}
+.faceSnapContainer {
+  margin-top: 4%;
 }
